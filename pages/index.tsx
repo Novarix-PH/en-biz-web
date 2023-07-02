@@ -21,25 +21,26 @@ export default function Homepage() {
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/enbiz_business_growth.png" title="Business Growth Tracks" overTitle="Enlarge">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Having a business growth track provides businesses with a structured framework, strategic guidance, and a roadmap to achieve
+              sustainable growth. It helps businesses make informed decisions, allocate resources effectively, manage risks, and track
+              progress towards their growth goals.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/enbiz_join_organization.png" title="Join Associations" overTitle="Engage" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Joining a business association provides businesses with a multitude of advantages. It offers valuable networking
+              opportunities, allowing companies to connect with industry professionals, potential clients, suppliers, and partners. Through
+              these connections, businesses can forge mutually beneficial relationships, collaborate on projects, gain access to new
+              opportunities, and expand their professional network.
             </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
+          </BasicSection>
+          <BasicSection imageUrl="/enbiz_ai_companion.png" title="AI Business Companion" overTitle="Enhance">
+            <p>
+              AI-powered chatbots and virtual assistants provide efficient and personalized customer service, ensuring round-the-clock
+              availability and quick responses to inquiries, thereby enhancing customer satisfaction and loyalty.
+            </p>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
